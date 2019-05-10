@@ -23,8 +23,8 @@ SCAN_INTERVAL = timedelta(seconds=60)
 
 async def async_setup(hass, config):
     """Track states and offer events for calendars."""
-    component = hass.data[DOMAIN] = EntityComponent(
-        _LOGGER, DOMAIN, hass, SCAN_INTERVAL, DOMAIN)
+    component = EntityComponent(
+        _LOGGER, DOMAIN, hass, SCAN_INTERVAL)
 
     hass.http.register_view(CalendarListView(component))
     hass.http.register_view(CalendarEventView(component))
