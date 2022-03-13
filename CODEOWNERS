@@ -536,6 +536,7 @@ homeassistant/components/kraken/* @eifinger
 tests/components/kraken/* @eifinger
 homeassistant/components/kulersky/* @emlove
 tests/components/kulersky/* @emlove
+homeassistant/components/kusto/* @saoc90
 homeassistant/components/lametric/* @robbiet480 @frenck
 homeassistant/components/launch_library/* @ludeeus @DurgNomis-drol
 tests/components/launch_library/* @ludeeus @DurgNomis-drol

@@ -1,0 +1,9 @@
+{
+    "domain": "kusto",
+    "name": "KustoDB",
+    "documentation": "https://www.home-assistant.io/integrations/kusto",
+    "requirements": ["azure-kusto-ingest==3.1.0"],
+    "codeowners": ["@saoc90"],
+    "iot_class": "local_push",
+    "loggers": ["kusto"]
+}
