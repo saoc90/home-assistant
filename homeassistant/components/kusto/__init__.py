@@ -249,7 +249,7 @@ class KustoThread(threading.Thread):
 
                 _LOGGER.debug(WROTE_MESSAGE, len(events_json))
                 break
-            except ValueError as err:
+            except TypeError as err:
                 _LOGGER.error(err)
                 break
             except ConnectionError as err:
